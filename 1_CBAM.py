@@ -80,3 +80,4 @@ if __name__ == '__main__':
     cbam = CBAM(channels)
     output = cbam(input_tensor)#(B,N,H,W)>(4,16,32,32)
     summary(cbam, input_size=(channels, height, width))
+    print()

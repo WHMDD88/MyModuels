@@ -64,3 +64,4 @@ if __name__ == "__main__":
     output = model(input_tensor)
     print("Output shape:", output.shape)
     summary(model, input_size=(in_channels, height, width))
+    print()
